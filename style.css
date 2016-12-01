@@ -1,0 +1,35 @@
+body {
+  background: white;
+  font-family: monospace;
+  text-align: center;
+  font-size: 1.2em;
+  position: relative;
+}
+
+img {
+  padding: 10px;
+  max-height: 100px;
+}
+
+img:hover {
+  transform: scale(1.4);
+  transition: all 1s;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 400px;
+  width: 90%;
+}
+
+span a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  color: red;
+}
