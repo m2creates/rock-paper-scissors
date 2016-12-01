@@ -6,8 +6,17 @@ body {
   position: relative;
 }
 
+h1 {
+  color: red;
+}
+
 sup {
   font-size: 0.6em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 img {
@@ -38,13 +47,4 @@ img:hover {
   border-top: 0;
   padding-top: 20px;
   margin-bottom: 30px;
-}
-
-span a {
-  text-decoration: none;
-  color: black;
-}
-
-h1 {
-  color: red;
 }
