@@ -6,6 +6,10 @@ body {
   position: relative;
 }
 
+sup {
+  font-size: 0.6em;
+}
+
 img {
   padding: 10px;
   max-height: 100px;
@@ -23,6 +27,17 @@ img:hover {
   transform: translate(-50%, -50%);
   min-height: 400px;
   width: 90%;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  padding-top: 20px;
+  margin-bottom: 30px;
 }
 
 span a {
